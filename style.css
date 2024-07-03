@@ -603,3 +603,20 @@ hr{
     transform: translateY(-2px);
 }
 
+
+/*Css For Sign Up Page */
+
+#container-main{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#left img{
+    height: 10rem;
+}
+#sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
