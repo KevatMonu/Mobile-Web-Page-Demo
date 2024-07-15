@@ -606,17 +606,14 @@ hr{
 
 /*Css For Sign Up Page */
 
-#container-main{
+#main{
     width: 100vw;
     height: 100vh;
+    background-color: yellow;
 }
 
-
-#left img{
-    height: 10rem;
-}
 #sign-up{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    background-color: skyblue;
 }
