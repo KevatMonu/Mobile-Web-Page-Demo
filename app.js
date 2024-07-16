@@ -16,3 +16,12 @@ faqs.forEach((faq)=>
         }
         })
 })
+
+
+function myFunc() {
+    window.location.href = "login.html";
+}
+
+function back() {
+    window.location.href = "index.html";
+}
