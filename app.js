@@ -19,13 +19,16 @@ faqs.forEach((faq)=>
 
 
 function myFunc() {
-    window.location.href = "login.html";
-}
-
-function back() {
     window.location.href = "sign-up.html";
 }
 
+function back() {
+    window.location.href = "sign-in.html";
+}
+
 function back2() {
-    window.location.href = ".html";
+    window.location.href = "sign-in.html";
+}
+function back3() {
+    window.location.href = "sign-up.html";
 }
