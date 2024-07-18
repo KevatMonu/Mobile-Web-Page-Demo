@@ -23,7 +23,7 @@ function myFunc() {
 }
 
 function back() {
-    window.location.href = "sign-in.html";
+    alert("Login Succesfully");
 }
 
 function back2() {
