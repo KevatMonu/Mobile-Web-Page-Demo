@@ -23,5 +23,9 @@ function myFunc() {
 }
 
 function back() {
-    window.location.href = "index.html";
+    window.location.href = "sign-up.html";
+}
+
+function back2() {
+    window.location.href = ".html";
 }
