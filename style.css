@@ -10,6 +10,9 @@ body{
     overflow-x: hidden;
 }
 
+html{
+    scroll-behavior:smooth;
+}
 nav{
     height: 4.68rem;
     width: 100%;
@@ -336,7 +339,7 @@ nav{
     align-items: center;
     gap: 46px;
     flex-wrap: wrap;
-    max-width: 70%;
+    max-width: 80%;
     margin: auto;
 }
 .comp{

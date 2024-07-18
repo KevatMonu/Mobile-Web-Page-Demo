@@ -32,3 +32,4 @@ function back2() {
 function back3() {
     window.location.href = "sign-up.html";
 }
+
