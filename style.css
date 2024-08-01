@@ -10,12 +10,23 @@ body{
     overflow-x: hidden;
 }
 
+
+#Home{
+    display: flex;
+    align-items: center;
+}
+
+#Home i{
+    margin-right: px;
+    font-size: 30px;
+    display: none;
+}
 html{
     scroll-behavior:smooth;
 }
 nav{
     height: 4.68rem;
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -42,6 +53,8 @@ nav{
     align-items: center;
     gap: 15px;
 }
+
+
 #btn1{
     position: relative;
     font-size: 1rem;
@@ -268,7 +281,7 @@ nav{
 
 .box{
     border-radius: 5px;
-    padding: 50px 75px;
+    padding: 50px 35px;
     border: 0.0625rem solid rgba(23, 31, 56, 0.125);
     border-radius: 0.45rem
 }
@@ -605,6 +618,98 @@ hr{
     box-shadow: rgba(214, 210, 222, 0.4) 0 4px 8px, rgba(234, 232, 238, 0.3) 0 7px 13px -3px, #eff1f3 0 -3px 0 inset;
     transform: translateY(-2px);
 }
+
+/* Resposive to Index */
+
+
+@media (max-width:1080px) {
+    #Home i{
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .download i {
+        font-size: 1.2rem;
+        padding-right: 10px;
+    }
+    .p>span:nth-child(1){
+        display: none;
+    }
+    .two h4{
+        font-size: 1rem;
+    }
+    .one h1 {
+        font-size: 2.7rem;
+    }
+
+    .box {
+        padding: 50px 15px;
+    }
+    .box h1{
+        font-size: 2.5rem;
+    }
+
+    .box p{
+        font-size: 1rem;
+    }
+    .brand i{
+        font-size: 4.1rem;
+    }
+
+    #up {
+        position: relative;
+        top: 0px;
+    }
+
+    .three{
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    .foot1{
+        gap:80px;
+    }
+
+    .two{
+        margin-bottom: 10px;
+    }
+
+    hr{
+        max-width: 95%;
+    }
+
+    .prt-bg img{
+        padding: 54px 0px 60px 0px;
+    }
+}
+
+@media (max-width:850px)
+{
+    .abt3{
+        gap:40px
+    }
+
+    .brand{
+        gap:45px;
+    }
+
+    .company{
+        gap:16px;
+    }
+
+    .faq{
+        margin: 0 10%;
+    }
+}
+
+
 
 
 /*Css For Sign Up Page */
